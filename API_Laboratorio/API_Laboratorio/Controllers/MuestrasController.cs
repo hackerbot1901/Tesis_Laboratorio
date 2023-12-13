@@ -29,6 +29,7 @@ namespace API_Laboratorio.Controllers
                             Nombres_Apellidos = m.Paciente.Nombre,
                             Sexo = m.Paciente.Sexo,
                             Urgencia = m.Urgencia,
+                            Edad = m.Edad,
                             Nombre_Examen = m.EstadoOrden.NombreExamen,
                             Estado_Examen = m.EstadoOrden.Estado,
                             Numero_Orden = m.EstadoOrden.NumeroOrden
